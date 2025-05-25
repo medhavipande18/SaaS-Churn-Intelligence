@@ -1,0 +1,29 @@
+{
+  "best_model_id": "hgb_1",
+  "best_params": {
+    "learning_rate": 0.05,
+    "max_depth": 5,
+    "max_leaf_nodes": 31
+  },
+  "val_metrics": {
+    "roc_auc": 0.5856923414527101,
+    "pr_auc": 0.13083983773041796
+  },
+  "features": [
+    "usage_events_30d",
+    "usage_events_90d",
+    "usage_trend_30d",
+    "usage_per_seat_30d",
+    "tickets_30d",
+    "escalations_90d",
+    "ticket_rate_30d",
+    "recent_upgrade_flag",
+    "recent_downgrade_flag",
+    "seat_change_30d",
+    "tenure_days",
+    "no_active_subscription_flag"
+  ],
+  "train_end": "2024-03-31",
+  "val_end": "2024-08-31",
+  "model_family": "hist_gradient_boosting"
+}

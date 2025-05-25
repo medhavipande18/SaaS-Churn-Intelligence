@@ -1,0 +1,28 @@
+{
+  "best_model_id": "lr_bal_C=5.0",
+  "best_params": {
+    "C": 5.0,
+    "class_weight": "balanced"
+  },
+  "val_metrics": {
+    "roc_auc": 0.6128744669451275,
+    "pr_auc": 0.1589462560880725
+  },
+  "features": [
+    "usage_events_30d",
+    "usage_events_90d",
+    "usage_trend_30d",
+    "usage_per_seat_30d",
+    "tickets_30d",
+    "escalations_90d",
+    "ticket_rate_30d",
+    "recent_upgrade_flag",
+    "recent_downgrade_flag",
+    "seat_change_30d",
+    "tenure_days",
+    "no_active_subscription_flag"
+  ],
+  "train_end": "2024-03-31",
+  "val_end": "2024-08-31",
+  "model_family": "logistic_regression"
+}
