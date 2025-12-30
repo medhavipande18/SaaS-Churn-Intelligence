@@ -45,7 +45,7 @@ Predict whether an account will churn in the next **30 days**, using only inform
 
 ## Project Structure
 
-``
+```
 saas-churn-intelligence/
 │
 ├── data/
@@ -72,7 +72,7 @@ saas-churn-intelligence/
 ├── src/ # (Reserved for productionization)
 ├── requirements.txt
 └── README.md
-``
+```
 
 ---
 
