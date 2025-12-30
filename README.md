@@ -1,4 +1,4 @@
-# SaaS Churn Intelligence — End-to-End ML Project
+# SaaS Churn Intelligence - End-to-end ML Project
 
 ## Overview
 This project builds an end-to-end churn prediction system for a fictional SaaS platform (**RavenStack**) using realistic, multi-table product telemetry.  
